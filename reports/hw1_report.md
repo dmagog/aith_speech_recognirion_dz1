@@ -19,10 +19,10 @@ Observed:
 - max absolute diff = `0.0`
 
 Plots:
-- `artifacts/plots/logmel_comparison.png`
-- `artifacts/full/plots/logmel_comparison_real_wav.png`
+- `../artifacts/plots/logmel_comparison.png`
+- `../artifacts/full/plots/logmel_comparison_real_wav.png`
 
-![LogMel comparison (real wav)](artifacts/full/plots/logmel_comparison_real_wav.png)
+![LogMel comparison (real wav)](../artifacts/full/plots/logmel_comparison_real_wav.png)
 
 ## 3. Binary yes/no pipeline
 - Dataset: `torchaudio.datasets.SPEECHCOMMANDS`
@@ -51,9 +51,9 @@ FLOPs are measured via forward hooks (Conv1d + Linear) and written to `summary.c
   - `test_accuracy`
 
 Artifacts:
-- histories: `artifacts/full/logs/*_history.csv`
-- checkpoints: `artifacts/full/checkpoints/*.pt`
-- summary: `artifacts/full/summary.csv`
+- histories: `../artifacts/full/logs/*_history.csv`
+- checkpoints: `../artifacts/full/checkpoints/*.pt`
+- summary: `../artifacts/full/summary.csv`
 
 ## 6. n_mels experiments
 
@@ -64,11 +64,11 @@ Artifacts:
 | mels_80_groups_1 | 80 | 0.9794 | 0.9751 | 13.945 |
 
 Plots:
-- `artifacts/full/plots/n_mels_vs_test_accuracy.png`
-- `artifacts/full/plots/train_loss_n_mels_runs.png`
+- `../artifacts/full/plots/n_mels_vs_test_accuracy.png`
+- `../artifacts/full/plots/train_loss_n_mels_runs.png`
 
-![Test accuracy vs n_mels](artifacts/full/plots/n_mels_vs_test_accuracy.png)
-![Train loss curves for n_mels runs](artifacts/full/plots/train_loss_n_mels_runs.png)
+![Test accuracy vs n_mels](../artifacts/full/plots/n_mels_vs_test_accuracy.png)
+![Train loss curves for n_mels runs](../artifacts/full/plots/train_loss_n_mels_runs.png)
 
 Observation:
 - Best test accuracy in this setup: `n_mels=20`.
@@ -84,15 +84,15 @@ Observation:
 | mels_80_groups_16 | 16 | 51,585 | 6,477,056 | 0.9405 | 0.9676 | 13.410 |
 
 Plots:
-- `artifacts/full/plots/groups_vs_mean_epoch_time_sec.png`
-- `artifacts/full/plots/groups_vs_params.png`
-- `artifacts/full/plots/groups_vs_flops.png`
-- `artifacts/full/plots/groups_vs_test_accuracy.png`
+- `../artifacts/full/plots/groups_vs_mean_epoch_time_sec.png`
+- `../artifacts/full/plots/groups_vs_params.png`
+- `../artifacts/full/plots/groups_vs_flops.png`
+- `../artifacts/full/plots/groups_vs_test_accuracy.png`
 
-![Mean epoch time vs groups](artifacts/full/plots/groups_vs_mean_epoch_time_sec.png)
-![Params vs groups](artifacts/full/plots/groups_vs_params.png)
-![FLOPs vs groups](artifacts/full/plots/groups_vs_flops.png)
-![Test accuracy vs groups](artifacts/full/plots/groups_vs_test_accuracy.png)
+![Mean epoch time vs groups](../artifacts/full/plots/groups_vs_mean_epoch_time_sec.png)
+![Params vs groups](../artifacts/full/plots/groups_vs_params.png)
+![FLOPs vs groups](../artifacts/full/plots/groups_vs_flops.png)
+![Test accuracy vs groups](../artifacts/full/plots/groups_vs_test_accuracy.png)
 
 Observation:
 - Increasing `groups` reduces params/FLOPs.
