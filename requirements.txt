@@ -1,0 +1,6 @@
+torch==2.7.0
+torchaudio==2.7.0
+matplotlib>=3.8
+pandas>=2.2
+numpy<2
+soundfile>=0.13

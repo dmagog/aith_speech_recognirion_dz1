@@ -1,0 +1,8 @@
+run_name,n_mels,groups,epochs,params,flops,best_val_accuracy,test_accuracy,mean_epoch_time_sec,history_csv,checkpoint,experiment_type
+mels_80_groups_2,80,2,3,56961,7014656,0.9813200498132005,0.9733009708737864,12.185608124668457,artifacts/full/logs/mels_80_groups_2_history.csv,artifacts/full/checkpoints/mels_80_groups_2.pt,groups
+mels_80_groups_4,80,4,3,53889,6707456,0.9850560398505604,0.9854368932038835,11.887277277666726,artifacts/full/logs/mels_80_groups_4_history.csv,artifacts/full/checkpoints/mels_80_groups_4.pt,groups
+mels_80_groups_8,80,8,3,52353,6553856,0.975093399750934,0.9235436893203883,13.311795874998401,artifacts/full/logs/mels_80_groups_8_history.csv,artifacts/full/checkpoints/mels_80_groups_8.pt,groups
+mels_80_groups_16,80,16,3,51585,6477056,0.9676214196762142,0.9405339805825242,13.410257514330928,artifacts/full/logs/mels_80_groups_16_history.csv,artifacts/full/checkpoints/mels_80_groups_16.pt,groups
+mels_20_groups_1,20,1,3,43905,3750656,0.9788293897882939,0.9890776699029126,17.399659694332513,artifacts/full/logs/mels_20_groups_1_history.csv,artifacts/full/checkpoints/mels_20_groups_1.pt,n_mels
+mels_40_groups_1,40,1,3,50305,5043456,0.9850560398505604,0.9854368932038835,17.225543430336984,artifacts/full/logs/mels_40_groups_1_history.csv,artifacts/full/checkpoints/mels_40_groups_1.pt,n_mels
+mels_80_groups_1,80,1,3,63105,7629056,0.975093399750934,0.9793689320388349,13.945385402667549,artifacts/full/logs/mels_80_groups_1_history.csv,artifacts/full/checkpoints/mels_80_groups_1.pt,n_mels
